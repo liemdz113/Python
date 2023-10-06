@@ -111,8 +111,6 @@ class Bird:
                 pygame.display.update()
             self.image_draw(self.linkImgBird, self.xBird,
                             self.yBird, self.xSizeBird, self.ySizeBird)
-            self.show_score(self.xScreen - 200, 20, "duyduysysy@gmail.com", 15)
-            self.show_score(10, 10, "Scores:{}".format(self.scores), 35)
             pygame.display.update()  # Update
             clock = pygame.time.Clock()
             clock.tick(80)
